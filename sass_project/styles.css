@@ -1,0 +1,113 @@
+.name-1 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-2 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-3 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-4 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-5 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-6 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-7 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-8 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-9 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-10 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-11 {
+  color: blue;
+  font-size: 30px;
+}
+
+.name-12 {
+  color: blue;
+  font-size: 30px;
+}
+
+.blue-bg {
+  border: 2px solid blue;
+  height: 30px;
+  content: "color1";
+}
+
+.black-bg {
+  border: 2px solid black;
+  height: 30px;
+  content: "color2";
+}
+
+.red-bg {
+  border: 2px solid red;
+  height: 30px;
+  content: "color3";
+}
+
+.text-1 {
+  font-size: 15px !important;
+  color: green;
+}
+
+.text-2 {
+  font-size: 30px !important;
+  color: green;
+}
+
+.text-3 {
+  font-size: 45px !important;
+  color: green;
+}
+
+.text-4 {
+  font-size: 60px !important;
+  color: green;
+}
+
+.text-5 {
+  font-size: 75px !important;
+  color: green;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#test {
+  border: 6px solid blue;
+  color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */
