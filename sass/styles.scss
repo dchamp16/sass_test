@@ -1,0 +1,55 @@
+$redColor: red;
+$font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+//control flow
+@mixin ifStatement($val) {
+  @if $val == "peter" {
+    border: 1px solid green;
+  } @else if $val == "justin" {
+    border: 3px solid orange;
+  } @else {
+    border: 6px solid blue;
+  }
+}
+
+// loop
+@for $i from 1 through 12 {
+  .name-#{$i} {
+    color: blue;
+    font-size: 30px;
+  }
+}
+
+$colors: (
+  color1: "blue",
+  color2: "black",
+  color3: "red",
+);
+// foreach loop
+@each $key, $color in $colors {
+  .#{$color}-bg {
+    border: 2px solid unquote($color);
+    height: 30px;
+    content: "#{$key}";
+  }
+}
+
+// while loop
+$i: 1;
+$setSize: 15;
+
+@while $i <= 5 {
+  .text-#{$i} {
+    font-size: #{$setSize * $i}px !important;
+    color: green;
+  }
+  $i: $i + 1;
+}
+
+body {
+  font-family: $font;
+}
+
+#test {
+  @include ifStatement("lauren");
+  color: $redColor;
+}
